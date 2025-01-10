@@ -1,1 +1,1087 @@
-<div>Mustafa Branch is working here</div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="widt, initial-scale=1.0" />
+  <title>clubby website</title>
+  <!-- bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <!--  -->
+  <link rel="stylesheet" href="clubweb.css" />
+  <!--  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--  -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <!--  -->
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+    rel="stylesheet">
+  <!--  -->
+</head>
+
+<body>
+
+  <header class="fixed-top bg-white fexxid">
+    <nav class="navbar club bg-body-white py-xxl-3 paddingx shadow-nanv">
+      <div class="container-fluid p-xl-0">
+        <a class="navbar-brand clubimg" href="#">
+          <img src="https://clubby.me/Clubbylogo.svg" alt="" width="auto" height="30">
+        </a>
+        <div class="d-none me-auto d-lg-block">
+          <div class=" d-flex marginstart">
+            <div class=" align-items-center px-1 bginfo justify-content-center" style="width: 100%; height: 100%;">
+              <i class="fa-solid text-white fs-5 fonticon fa-house"
+                style="font-size: px; padding: 14px 13px 14px 13px;"></i>
+            </div>
+            <div class=" align-items-center ms-2 rounded px-1 bghover justify-content-center"
+              style="width: 100%; height: 100%;">
+              <i class="fa-solid fs-5 fcolr fa-calendar-days" style="font-size: px; padding: 14px 13px 14px 13px;"></i>
+            </div>
+            <div class=" align-items-center ms-2 rounded px-1 bghover justify-content-center"
+              style="width: 100%; height: 100%;">
+              <i class="fa-solid fs-5 fcolr fa-wallet" style="font-size: px; padding: 14px 13px 14px 13px;"></i>
+            </div>
+            <div class=" align-items-center ms-2 rounded px-1 bghover justify-content-center"
+              style="width: 100%; height: 100%;">
+              <i class="fa-solid fs-5 fcolr fa-message" style="font-size: px; padding: 14px 13px 14px 13px;"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collap" id="navbarSupportedContent">
+          <ul class="navbar ms-auto align-items-center mb-0 p-0">
+            <li class="nav">
+              <a class="nav-link active p-0 " aria-current="page" href="#">
+                <div class="dropdown">
+                  <a class="btn bg-white border-0 p-0 btn-secondary me-sm-2" href="#" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid bellicon me-1 me-md-1 me-lg-0 fa-bell"
+                      style="font-size: 23px; padding: 11px;"></i>
+                  </a>
+
+                  <ul class="dropdown-menu p-3 cations p-lg-4 border-0 mt-3 mt-xxl-4  dropdown-menu-end"
+                    style=" border-radius: 12px !important; right: -50px;  box-shadow: 0 1px 5px #0003, 0 2px 2px #00000024, 0 3px 1px -2px #0000001f; visibility: visible;">
+                    <div class="p-lg-1">
+                      <div class="d-flex border-bottom p-1 pb-3 align-items-center ">
+                        <h1 class="modal-title notifi-1 text-black" id="exampleModalLabel">Notifications</h1>
+                        <div class="ms-auto bg-noti-22 px-3 py-2  rounded-1 align-items-center">
+                          <span class="view">View All Notifications</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="p-3"></div>
+                  </ul>
+                </div>
+                <!-- Button trigger modal -->
+
+              </a>
+            </li>
+            <div class="dropdown d-block d-lg-none">
+              <button class="btn dupdoun  pe-1 border-0 btn- py-1 d-flex align-items-center text-black pe-0"
+                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="rounded-5" style="border: 2px solid black; padding: 4px; margin-right: 4px;">
+                  <img src="https://clubby.me/icons/Cluby-C.svg" class="backcolor" alt="" width="24" height="24">
+                </div>
+                <div class=" me-2">
+                </div>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end py-2 mt-1 border-0"
+                style="min-width: 120px; border-radius: 12px;     box-shadow: 0 1px 5px #0003, 0 2px 2px #00000024, 0 3px 1px -2px #0000001f;">
+                <li><a class="dropdown-item pb-3 setting pt-2" href="#"><i
+                      class="fa-solid me-2 fa-gear"></i>Settings</a></li>
+                <li><a class="dropdown-item logout pb-2" href="#"><i
+                      class="fa-solid me-2 logout fa-arrow-right-from-bracket"></i>Logout</a></li>
+              </ul>
+            </div>
+            <div class="dropdown d-none d-lg-block">
+              <button class="btn dupdoun border-0 btn- py-1 dropdown-toggle d-flex align-items-center text-black ps-0"
+                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="rounded-5 me-3" style="border: 2px solid black; padding: 4px;">
+                  <img src="https://clubby.me/icons/Cluby-C.svg" class="backcolor backcol-first" alt="" width="24" height="24">
+                </div>
+                <div class="shah mt-1 text-1b1b1b1 me-2">
+                  Jamal Shah
+                </div>
+              </button>
+              <ul class="dropdown-menu mt-1 border-0"
+                style="min-width: 170px; box-shadow: 0 1px 5px #0003, 0 2px 2px #00000024, 0 3px 1px -2px #0000001f; border-radius: 12px;">
+                <li><a class="dropdown-item pb-3 setting pt-2" href="#"><i
+                      class="fa-solid me-2 fa-gear"></i>Settings</a></li>
+                <li><a class="dropdown-item logout pb-2" href="#"><i
+                      class="fa-solid me-2 logout fa-arrow-right-from-bracket"></i>Logout</a></li>
+              </ul>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--  -->
+  <footer class=" fixed-bottom club bg-white d-block py-2 d-lg-none shadow-22">
+    <div class="container-fluid">
+
+      <div class="justify-content-center  align-items-center d-flex">
+        <div class=" align-items-center mx-3 mx-sm-2 px-xs-3 px-sm-2 bginfo justify-content-center">
+          <i class="fa-solid text-white fs-5 fonticon fa-house"
+            style="font-size: px; padding: 14px 17px 14px 17px;"></i>
+        </div>
+        <div class=" align-items-center mx-2 rounded px-xs-3 px-sm-2 bghover justify-content-center">
+          <i class="fa-solid fs-5 fcolr fa-calendar-days" style="font-size: px; padding: 14px 17px 14px 17px;"></i>
+        </div>
+        <div class=" align-items-center mx-2 rounded px-xs-3 px-sm-2 bghover justify-content-center">
+          <i class="fa-solid fs-5 fcolr fa-wallet" style="font-size: px; padding: 14px 17px 14px 17px;"></i>
+        </div>
+        <div class=" align-items-center mx-3 mx-sm-2 rounded px-xs-3 px-sm-2 bghover justify-content-center">
+          <i class="fa-solid fs-5 fcolr fa-message" style="font-size: px; padding: 14px 17px 14px 17px;"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </footer>
+
+  <!-- main section -->
+  <div class="miann">
+    <main class="backgroudcolor minheghtmain p-4" style="min-height: 1285px;">
+      <div class="container-fluid">
+        <div class="row py-lg-4">
+          <!--  -->
+          <div class="row d-flex d-block d-lg-none m-0 px-0">
+            <div class="col-6 mb-2 px-2 pt-2 pb-3">
+              <a class="btn btn-primary bg-white withdoffas border-0 p-2" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+            aria-controls="offcanvasExample">
+            <span class="material-symbols-outlined p-0 " style="font-size: 24px;">
+              arrow_forward_ios
+              </span>
+          </a>
+
+          <div class="offcanvas offcanvas-start bgeeee " tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-body">
+              <div class="col-12 withd-1">
+              
+
+                <div class="mb-4">
+                  
+                  <!--  -->
+                  <button type="button" class="btn btn lineheeght-27 border-0 w-100 sidebuttn align-items-center btn-primary btn-lg"
+                    data-bs-toggle="modal" data-bs-target="#staticBackdrop09"><span class="align-items-center "><img
+                        src="https://clubby.me/icons/join.svg" alt=""
+                        style="width: 27px; height: 27px; margin-right: 12px; margin-bottom: px;"></i><span
+                        class="joinc fontwwt">Join Club</span></span>
+                  </button>
+    
+                  <!-- Modal -->
+                  <div class="modal fade backdropmodal" id="staticBackdrop09" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel09" aria-hidden="true">
+                    <div class="modal-dialog  modal-dialog-centered p-4 m-0 m-sm-auto">
+                      <div class="modal-content  cardpadd border-0 mt-5" style="">
+                        <div class="modal-header px-0 pt-0 border-bottom">
+                          <h1 class="modal-title text-2444 textgrayy font-style-normal" id="staticBackdropLabel09">Join Club</h1>
+                          <button type="button" class="" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body px-0 mt-3 mb-2 textgrayy font-style-normal f-1888 border-bottom-0">
+                          Club Code
+                        </div>
+                        <div class="ps-1 pe-2">
+                          <input type="text" class="border-0 bg-gray-input w-100 boreder rounded-top padding-6">
+                        </div>
+                        <div class="modal-footer border-0 justify-content-start pt-4 px-0 pb-2">
+                          <button type="button" class="btn text-white px-4 px-sm-5 py-2 btncolcard">Join</button>
+                          <button type="button" class="btn cancl ms-2 px-4 px-sm-5 py-2" data-bs-dismiss="modal">Cancel</button>
+    
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="mb-4">
+                  <button type="button"
+                    class="btn btn align-items-center border-0 w-100 lineheeght-27 sidetwobuttn align-items-center  btn-lg"
+                    style="font-size: 20px;"><i class="fa-solid align-items-center fclr-42 fonw-400 lineheeght-27 fa-plus" style="height: 25px; width: 27px; font-size: 20px; margin-right: 12px;"></i></i><span class="f-166 font-style-normal lineheeght-27 fclr-42">Create a
+                     Club</span></span>
+                  </button>
+                </div>
+    
+                <!-- accordian -->
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                  <div class="accordion-item p-2 border-0 rounded-111">
+                    <h2 class="accordion-header bordernon">
+                      <button class="accordion-button shadow-none rounded-222 p-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        Your Clubs
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                      <div class="accordion-body padding-a2 threebtn-h align-items-center d-flex">
+                        <div class="rounded-5 "
+                          style="border: 1px solid #e94343; padding: 5px; margin-right: px; width: 37px; height: 36px;">
+                          <img src="https://clubby.me/icons/Cluby-C.svg" class="backcolor" alt="" width="25" height="25">
+                        </div>
+                        <div class="paddding-3 ">
+                          <p class="mb-0 f-14">first club</p>
+                          <p class="mb-0 fontss133 lorems fonw-400 mt-1">lorem inspum</p>
+                        </div>
+                      </div>
+                      <!--  -->
+                      <div class="accordion-body padding-a2 threebtn-h align-items-center d-flex">
+                        <div class="rounded-5"
+                          style="border: 1px solid blueviolet; background: #e5f0fe; padding: 5px; margin-right: px; width: 37px; height: 36px;">
+                          <img src="https://clubby.me/icons/Cluby-C.svg" class="backcolor" alt="" width="25" height="25">
+                        </div>
+                        <div class="paddding-3 over-min-withd">
+                          <p class="mb-0 f-14">Reed lyons</p>
+                          <p class="mb-0 fontss133 lorems overflowlorm fonw-400 mt-1">Shorts featured today by cut sorts today</p>
+                        </div>
+                      </div>
+                      <!--  -->
+                      <div class="accordion-body padding-a2 threebtn-h align-items-center d-flex">
+                        <div class="rounded-5"
+                          style="border: 1px solid yellow; padding: 5px; margin-right: px; width: 37px; height: 36px;">
+                          <img src="https://clubby.me/icons/Cluby-C.svg" class="backcolor" alt="" width="25" height="25">
+                        </div>
+                        <div class="paddding-3 over-min-withd">
+                          <p class="mb-0 f-14">Linus Mullen</p>
+                          <p class="mb-0 fontss133 lorems overflowlorm fonw-400 mt-1">Explore from your favorite explore from your</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+            </div>
+
+            <!-- left offcanvas  -->
+             <div class="col-6 text-end mb-2 px-2 pt-2 pb-3">
+              <button class="btn btn-primary bg-white withdoffas border-0 p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span class="material-symbols-outlined" style="font-size: 24px; margin-left: 5px;">
+                arrow_back_ios
+                </span></button>
+              
+              <div class="offcanvas offcanvas-end bgeeeeright" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                
+                </div>
+                <div class="offcanvas-body">
+                  <div class="col-12 text-start withd-cl-3">
+                    <div class="bg-white rounded-10">
+                      <div class="py-3 px-4">
+                        <div class="mt-1 mb-2">
+                          <p class="fclr-42 mb-0 font-style-normal f-166">About</p>
+                        </div>
+                        <div class="">
+                          <p class="font-style-normal fonw-400 linehit24 f-14 mb-2 fclr-42">Sit consectetur asp</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!--  -->
+                    <div class="bg-white rounded-10 mt-4">
+                      <div class="px-2 py-3">
+                        <p class="mb-2 pt-1 linehit24 ps-3 f-166 font-style-normal fclr-42">Officers</p>
+                        <!--  -->
+                        <div class="minn-height-all-2 d-flex  align-items-center">
+                          <button type="button" class="btn d-flex border-0 withd-33 py-2 px-3 align-items-center" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal6">
+                            <div class="justify-content-center align-items-center"
+                              style=" border-radius: 100px; background-color: #fdecec; padding: px; width: 40px; height: 40px;">
+                              <img src="https://clubby.me/icons/Cluby-C.svg" class="backcolor p-1" alt="" width="39"
+                                height="39">
+                            </div>
+                            <div class="ps-3 align-items-end">
+                              <span class="font-style-normal f-14 colr4354 pe-1">Jamal Shah</span>
+                      <span><i class="fa-solid fa-user"  data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Admin" style="font-size: 15.435px;"></i></span>
+                             
+                              <!-- <span><i class="fa-solid fa-user" style="font-size: 15.435px;"></i></span> -->
+                              <p class="mb-0 mt-1 text-start text-7575 f-14">Admin</p>
+                            </div>
+                          </button>
+        
+                          <!-- Modal -->
+                          <div class="modal fade backdropmodal" id="exampleModal6" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content cardright mt-5" style="">
+                                <div class="modal-header px-3 pt-0 border-bottom">
+                                  <h1 class="modal-title fs-4" id="staticBackdropLabel">All Members</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body px-0 pb-0 pt-4 mx-3 border-bottom-0">
+                                  <input type="text" placeholder="Search" class="border-0 outli-0 bg-gray-input w-100 p-3">
+                                </div>
+                               
+                                <div class="">
+                                  <p class="mb-0 p-3 linehit24 f-166 font-style-normal fclr-42">Officers</p>
+                                </div>
+                                <div class="modal-footer px-3 py-2 me-auto border-0">
+                                  <div class="d-flex">
+                                    <div class="justify-content-center p-0 align-items-center"
+                                    style=" border-radius: 100px; background-color: #fdecec; padding: px; width: 40px; height: 40px;">
+                                    <img src="https://clubby.me/icons/Cluby-C.svg" class="backcolor p-1" alt="" width="39"
+                                      height="39">
+                                  </div>
+                                  <div class="ps-3 align-items-end">
+                                    <span class="font-style-normal f-166 colr4354">Jamal Shah</span>
+                                    <p class="mb-0 mt-1 text-start text-7575 f-14">Admin</p>
+                                  </div>
+                                  </div>
+                                </div>
+                                <div class="p-3">
+                                  <p class="mb-0 ftext-188 colr4354">Members (0)</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="ps-3 pt-3 pb-2">
+                          <p class="mb-0 colr4354">Members (0)</p>
+                        </div>
+                      </div>
+                      <!--  -->
+                    </div>
+        
+                    <div class="p-2 mt-4 rounded-10 bg-white">
+                      <div class="accordion" id="accordionPanelsStayOpenExample11">
+                        <div class="accordion-item border-0  rounded-111">
+                          <h2 class="accordion-header bordernon">
+                            <button class="accordion-button mt-1 shadow-none align-items-center bg-white px-3 py-2 " type="button"
+                              data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne11" aria-expanded="true"
+                              aria-controls="panelsStayOpen-collapseOne">
+                              <p class="mb-0 f-166 fclr-42  font-style-normal linehit24">Upcoming Events</p>
+                              <span class="ps-3"><i class="fa-solid fa-arrow-right" style="font-size: 16px;"></i></span>
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseOne11" class="accordion-collapse collapse show">
+                            <div class="accordion-body px-3 c-poinntr actiive-hoverr py-2 mt-1 link-dark align-items-center d-flex">
+                              <div class="rounded-2 justify-content-center text-center px-2"
+                                style="border: 1px solid #e94343; background: #fdecec; margin-right: px; width: 46px; height: 70px;">
+                                <p class="mb-0 mt-1 f-14 textgrayy">AUG</p>
+                                <p class="mb-0 fontsizefirst linheifgt39">27</p>
+                              </div>
+                              <!--  -->
+                              <div class="paddingg-10">
+                                <p class="mb-0 linus  fclr-42">Zeus Lopez</p>
+                                <p class="mb-0 fonw-400 ltrspace color-6161 font-s-12 mt-1">Sunt tempore et ad</p>
+                                <p class="mb-0 mt-1 text-redd font-s-12">09:08 pm - 10:08 pm</p>
+                              </div>
+                            </div>
+                            <!--  -->
+                            
+                            <div class="accordion-body px-3 c-poinntr actiive-hoverr py-2 mt-1 link-dark align-items-center d-flex">
+                              <div class="rounded-2 justify-content-center text-center px-2"
+                                style="border: 1px solid #e94343; background: #fdecec; margin-right: px; width: 46px; height: 70px;">
+                                <p class="mb-0 mt-1 f-14 textgrayy">AUG</p>
+                                <p class="mb-0 fontsizefirst linheifgt39">27</p>
+                              </div>
+                              <!--  -->
+                              <div class="paddingg-10 over-min-withd">
+                                <p class="mb-0 linus  fclr-42 overflowlorm">Meeting with client</p>
+                                <p class="mb-0 fonw-400 ltrspace color-6161 font-s-12 overflowlorm mt-1">Tell how to Boost Website trafic</p>
+                                <p class="mb-0 mt-1 text-redd font-s-12">19:08 pm - 10:08 pm</p>
+                              </div>
+                            </div>
+                            <!--  -->
+                           
+                            <div class="accordion-body px-3 c-poinntr actiive-hoverr py-2 mt-1 link-dark align-items-center d-flex">
+                              <div class="rounded-2 justify-content-center text-center px-2"
+                                style="border: 1px solid #e94343; background: #fdecec; margin-right: px; width: 46px; height: 70px;">
+                                <p class="mb-0 mt-1 f-14 textgrayy">AUG</p>
+                                <p class="mb-0 fontsizefirst linheifgt39">27</p>
+                              </div>
+                              <!--  -->
+                              <div class="paddingg-10 over-min-withd">
+                                <p class="mb-0 linus  fclr-42 overflowlorm">Meeting Brand Identity Design</p>
+                                <p class="mb-0 fonw-400 ltrspace color-6161 overflowlorm font-s-12 mt-1">Tell how to Boost Website trafic</p>
+                                <p class="mb-0 mt-1 text-redd font-s-12">19:08 pm - 10:08 pm</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--  -->
+                    <div class="mt-4 p-4 rounded-10 bg-white">
+                      <div class="f-166 font-style-normal d-flex flex-wrap fclr-42">
+                        <span class="">Budget Goals</span>
+                        <span class="ms-xxl-auto ms-lg-5">Show Public</span>
+                        
+                      </div>
+                      <div class="accordion-body border-bottom pt-1 pb-2 align-items-center d-flex">
+                        <div class="rounded-5 "
+                          style="border: 1px solid blueviolet; background: #b7d6e9; padding: 6px; margin-right: px; width: 40px; height: 40px;">
+                          <img src="https://clubby.me/icons/Cluby-C.svg" class="backcolor" alt="" width="25" height="26">
+                        </div>
+                        <div class="paddding-3">
+                          <p class="mb-0 fss-16 overfloo textgrayy">Non eum iste eius ap</p>
+                          <p class="mb-0 fontsss-13 lorems fonw-400 mt-1">2024-08-28</p>
+                        </div>
+                        <div class="ms-auto">
+                          <span class="py-3 fsss-20 textcolor">$0</span>
+                          <span class="py-3 fsss-20 textclor7575">/$959</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!--       -->
+                    <!-- ***** -->
+                  </div>
+                </div>
+              </div>
+             </div>
+             <!--  -->
+            <!-- right -->
+
+             <!--  -->
+          </div>
+          <!--  -->
+          <div class="col-12  col-md-3 col-lg-2 d-none d-lg-block withd-1">
+            <div class="mb-4">
+              <!--  -->
+              <button type="button" class="btn btn border-0  w-100 lineheeght-27 sidebuttn align-items-center btn-primary btn-lg"
+                data-bs-toggle="modal" data-bs-target="#staticBackdrop99"><span class="align-items-center "><img
+                    src="https://clubby.me/icons/join.svg" alt="" class="first-buutn"><span
+                    class="joinc font-style-normal">Join Club</span></span>
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade backdropmodal" id="staticBackdrop99" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="1" aria-labelledby="staticBackdropLabel99" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content  cardpadd mt-5">
+                    <div class="modal-header px-0 pt-0 border-bottom">
+                      <h1 class="modal-title fs-4" id="staticBackdropLabel99">Join Club</h1>
+                      <button type="button" class="" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body px-0 mt-3 mb-2 border-bottom-0">
+                      Club Code
+                    </div>
+                    <!-- <div class="ps-1 pe-2">
+                      <input type="text" class="border-0 bg-gray-input w-100 py-2">
+                    </div> -->
+                    <div class="ps-1 pe-2">
+                      <input type="text" class="border-0 bg-gray-input w-100 boreder rounded-top padding-6">
+                    </div>
+                    <div class="modal-footer border-0 me-auto pt-4 px-0 pb-2">
+                      <button type="button" class="btn text-white px-5 py-2 btncolcard">Join</button>
+                      <button type="button" class="btn cancl ms-2 px-5 py-2" data-bs-dismiss="modal">Cancel</button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mb-4">
+              <button type="button"
+                class="btn btn align-items-center padding-a233 border-0 w-100 lineheeght-27 sidetwobuttn align-items-center  btn-lg"
+                style="font-size: 20px;"><i class="fa-solid align-items-center fclr-42 fonw-400 lineheeght-27 fa-plus" style="height: 25px; width: 27px; font-size: 20px; margin-right: 12px;"></i></i><span class="f-166 font-style-normal lineheeght-27 fclr-42">Create a
+                 Club</span></span>
+              </button>
+            </div>
+
+            <!-- accordian -->
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item p-2  rounded-111">
+                <h2 class="accordion-header bordernon">
+                  <button class="accordion-button shadow-none  rounded-222 padding-a2" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseOne">
+                    <span class="textgrayy">Your Clubs</span>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                  <div class="accordion-body padding-a2 threebtn-h align-items-center d-flex">
+                    <div class="rounded-5 me-3"
+                      style="border: 1px solid #e94343; padding: 5px; margin-right: px; width: 37px; height: 37px;">
+                      <img src="https://clubby.me/icons/Cluby-C.svg" class="backcolor" alt="" width="25" height="25">
+                    </div>
+                    <div class="">
+                      <p class="mb-0 hedy font-style-normal text-1b1b1b1 linehe-16">first club</p>
+                      <p class="mb-0 lorm-13333 mt-1 fonw-400 texy-000008ba">lorem inspum</p>
+                    </div>
+                  </div>
+                  <!--  -->
+                  <div class="accordion-body padding-a2 threebtn-h align-items-center d-flex">
+                    <div class="rounded-5 me-3"
+                      style="border: 1px solid blueviolet; background: #e5f0fe; padding: 5px; margin-right: px; width: 37px; height: 37px;">
+                      <img src="https://clubby.me/icons/Cluby-C.svg" class="backcolor" alt="" width="25" height="25">
+                    </div>
+                    <div class="over-min-withd">
+                      <p class="mb-0 hedy font-style-normal text-1b1b1b1 linehe-16">Reed lyons</p>
+                      <p class="mb-0 lorm-13333 mt-1 overflowlorm fonw-400 texy-000008ba">Shorts featured today by cut</p>
+                    </div>
+                  </div>
+                  <!--  -->
+                  <div class="accordion-body padding-a2 threebtn-h align-items-center d-flex">
+                    <div class="rounded-5 me-3"
+                      style="border: 1px solid yellow; padding: 5px; margin-right: px; width: 37px; height: 37px;">
+                      <img src="https://clubby.me/icons/Cluby-C.svg" class="backcolor" alt="" width="25" height="25">
+                    </div>
+                    <div class="over-min-withd">
+                      <p class="mb-0 hedy font-style-normal text-1b1b1b1 linehe-16">Linus Mullen</p>
+                      <p class="mb-0 lorm-13333 mt-1 overflowlorm fonw-400 texy-000008ba">Explore from your favorite</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+          <!-- mid section -->
+          <div class=" col-12 col-md-12 col-lg-7 withd-cl-7">
+            <div class="row rounded-10 p-3 p-md-4 p-lg-0 bg-white">
+              <div class="col-md-12 px-0 text-center">
+                <div class="bg-red-light rounded-10 m-lg-4 px-2 py-4">
+                  <div class=" mx-auto"
+                    style="border: 3px solid #e94343; border-radius: 100px; background-color: #f9caca; padding: 8px; width: 122px; height: 122px;">
+                    <img src="https://clubby.me/icons/Cluby-C.svg" class="backcolor" alt="" width="100" height="100">
+                  </div>
+                  <div class="">
+                    <p class="fontsizefirst m-0 pt-2 font-style-normal">first club</p>
+                  </div>
+                  <div class="font-style-normal">
+                    <p class="bycreat mb-0">Created by Jamal Shah</p>
+                  </div>
+                  <div class="align-items-center py-3">
+                    <span class="f-166 text-redd fontwwt py-3">69QZy</span>
+                    <span class="fs-4 p-2 textgrayy"><i class="fa-regular  fa-copy"></i></span>
+                  </div>
+
+                  <!-- three modal -->
+                  <div class="row  justify-content-center">
+                    <div class="d-flex justify-content-center px-0">
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn d-flex py-2 px-3 shareicon align-items-center rounded-2  bg-white"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+                        <span class="material-symbols-outlined mstarttt " style="font-size: 22px; color: #e94343;" >
+                          share
+                          </span>
+                        <span class="sharecl text-redd d-none d-lg-block">Share Club</span>
+                      </button>
+
+                      <!-- Modal -->
+                      <div class="modal fade backdropmodal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog p-4 m-0 m-md-auto modal-dialog-centered">
+                          <div class="modal-content bordercont">
+                            <div class="modal-header " style="padding: 8px 12px 8px 12px;">
+                              <h1 class="modal-title font-style-normal friends" id="exampleModalLabel">Share to friends
+                              </h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body bg-bodyyy p-0">
+                              <p class="font-18 fonw-400 mt-3 mb-0">select how do you want to share first club club</p>
+                              <div class="d-flex py-3 justify-content-center">
+                                <div class="bg-white p-3">
+                                  <span class="material-symbols-outlined"
+                                    style="font-size: 27px; background-color: ; color:  #2196f3;">
+                                    sms
+                                  </span>
+                                  <p class="fontt-20">SMS</p>
+                                </div>
+                                <div class="bg-white p-3 mx-2">
+                                  <i class="fa-solid fa-envelope" style="font-size: 27px; color: #2196f3;"></i>
+                                  <p class="fontt-20">Email</p>
+                                </div>
+                                <div class="bg-white p-3">
+                                  <span class="material-symbols-outlined" style="font-size: 28px; color: #2196f3;">
+                                    qr_code_2
+                                  </span>
+                                  <p class="fontt-20">QR Code</p>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                      <!-- 2nd -->
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn d-flex withd-2nd btn-primary mx-1 mx-md-2 px-3 rounded-2 py-2 border-0 sharecl"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal2" style="background-color: #e94343;">
+                        <span class=" mstarttt"><img src="https://clubby.me/icons/exit.svg" alt=""
+                            style="width: 22px; height: 22px;"></span>
+                        <span class="d-none d-lg-block">Leave</span>
+                      </button>
+
+                      <!-- Modal -->
+                      <div class="modal fade backdropmodal" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
+                        aria-hidden="true">
+                        <div class="modal-dialog  p-4 my-0 m-0 m-sm-auto modal-dialog-centered ">
+                          <div class="modal-content modal-dialog-centered mt-5 scndmodal">
+                            <div class="modal-header p-0 border-bottom-0">
+                              <h1 class="modal-title leave color-3f354 font-style-normal" id="exampleModalLabel2">Leave
+                                first club</h1>
+                              <button type="button" class="" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body f-14 font-style-normal textgrayy px-0 py-3 color-3f354">
+                              Are you sure you want to leave <strong>first club</strong> ?
+                            </div>
+                            <div class="modal-footer border-top-0 justify-content-center pt-4 ps-0 pe-md-4 pb-2">
+                              <button type="button"
+                                class="btn text-white px-4 m-0 px-md-5 py-2  btncolcard">confirm</button>
+                              <button type="button" class="btn cancl px-4 px-md-5 m-0 py-2"
+                                data-bs-dismiss="modal">Cancel</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- third modal -->
+                      <!-- Button trigger modal -->
+                      <button type="button"
+                        class="btn px-3 py-2 btn-primar editwithd  bg-white border-0 rounded-2 align-items-center"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal98">
+                        <span class="align-items-center d-flex">
+                          <span class="material-symbols-outlined mstarttt textgrayy" style="font-size: 22px;">
+                            border_color
+                          </span>
+                          <span class="textgrayy sharecl d-none d-lg-block">Edit club</span>
+                        </span>
+                      </button>
+
+<!-- Modal -->
+<div class="modal fade backdropmodal" id="exampleModal98" tabindex="-1" aria-labelledby="exampleModalLabel98" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered p-4 m-0 m-md-auto">
+    <div class="modal-content rounded-4 mt-5">
+        <div class="modal-body cardpadd">
+          <div class="modal-header positionn-no border-bottom pb-3 p-0">
+      
+            <h2 class="mb-0 text-2444 textgrayy font-style-normal">Club Settings</h2>
+            <div class="ms-auto">
+              <button type="button" class="btn d-flex  bg-red-light fntt-w-500h border-0 px-3 py-2 px-md-3 py-md-1"><i class="fa-solid me-md-2 color-6161 fa-trash"></i> <span class="color-6161 d-none d-md-block f-14 fntt-w-500">Delete Club</span></button>
+            </div>
+          </div>
+          <div class="text-start">
+            <p class="mb-0 py-3 textgrayy font-style-normal f-1888">Club Icon</p>
+            <div class="rounded-circle position-relative" style="height: 110px; width: 110px; background-color:#fde8f7;">
+              <div class="position-absolute " style="top: 60%; left: 68%">
+                <img src="https://clubby.me/icons/emoji01.svg" alt="" width="50">
+              </div>
+            </div>
+            <p class="py-3 mb-0 textgrayy font-style-normal f-1888">Club Name</p>
+            <div class="">
+              <input type="text" placeholder="Hedy Wilkerson" class="border-0 bg-gray-input w-100 boreder rounded-top padding-6">
+             </div>
+             <p class="mb-0 py-3 textgrayy font-style-normal f-1888">Club Description</p>
+             <div class="">
+              <!-- <input type="text" placeholder="Sit Consectetor asp" class="border-0  height-inpu bg-gray-input w-100 boreder rounded-top padding-6"/> -->
+               <textarea name="" id="" placeholder="Sit Consectetor asp" class="border-0  height-inpu bg-gray-input w-100 boreder rounded-top padding-6"></textarea>
+             </div>
+             <p class="pt-3 pb-2 mb-0 textgrayy font-style-normal f-1888">Goal Color</p>
+
+
+             <div class="d-flex flex-wrap row-gap-2">
+              <div class="mx-1" style="width: 44px; background: white; height: 44px; box-shadow: rgba(14, 30, 37, 0.8) 0px 2px 3px 0px, rgba(10, 30, 37, 0.10) 0px 2px 16px 0px; border-radius: 50px; padding: 4px;">
+                <div class="p-2" style="background-color: black; width: 36px; height: 36px; border-radius: 50px;"></div>
+               </div>
+               <div class="mx-1" style="width: 44px; background: white; height: 44px; box-shadow: rgba(14, 30, 37, 0.8) 0px 2px 3px 0px, rgba(10, 30, 37, 0.10) 0px 2px 16px 0px; border-radius: 50px; padding: 4px;">
+                <div class="p-2" style="background-color: blue; width: 36px; height: 36px; border-radius: 50px;"></div>
+               </div>
+               <div class="mx-1" style="width: 44px; background: white; height: 44px; box-shadow: rgba(14, 30, 37, 0.8) 0px 2px 3px 0px, rgba(10, 30, 37, 0.10) 0px 2px 16px 0px; border-radius: 50px; padding: 4px;">
+                <div class="p-2" style="background-color: purple; width: 36px; height: 36px; border-radius: 50px;"></div>
+               </div>
+               <div class="mx-1" style="width: 44px; background: white; height: 44px; box-shadow: rgba(14, 30, 37, 0.8) 0px 2px 3px 0px, rgba(10, 30, 37, 0.10) 0px 2px 16px 0px; border-radius: 50px; padding: 4px;">
+                <div class="p-2" style="background-color: rgb(51, 108, 141); width: 36px; height: 36px; border-radius: 50px;"></div>
+               </div>
+               <div class="mx-1" style="width: 44px; background: white; height: 44px; box-shadow: rgba(14, 30, 37, 0.8) 0px 2px 3px 0px, rgba(10, 30, 37, 0.10) 0px 2px 16px 0px; border-radius: 50px; padding: 4px;">
+                <div class="p-2" style="background-color: yellow; width: 36px; height: 36px; border-radius: 50px;"></div>
+               </div>
+               <div class="mx-1" style="width: 44px; background: white; height: 44px; box-shadow: rgba(14, 30, 37, 0.8) 0px 2px 3px 0px, rgba(10, 30, 37, 0.10) 0px 2px 16px 0px; border-radius: 50px; padding: 4px;">
+                <div class="p-2" style="background-color: green; width: 36px; height: 36px; border-radius: 50px;"></div>
+               </div>
+               <div class="mx-1" style="width: 44px; background: white; height: 44px; box-shadow: rgba(14, 30, 37, 0.8) 0px 2px 3px 0px, rgba(10, 30, 37, 0.10) 0px 2px 16px 0px; border-radius: 50px; padding: 4px;">
+                <div class="p-2" style="background-color: rgb(221, 81, 81); width: 36px; height: 36px; border-radius: 50px;"></div>
+               </div>
+               <div class="mx-1" style="width: 44px; background: white; height: 44px; box-shadow: rgba(14, 30, 37, 0.8) 0px 2px 3px 0px, rgba(10, 30, 37, 0.10) 0px 2px 16px 0px; border-radius: 50px; padding: 4px;">
+                <div class="p-2" style="background-color: rgb(255, 196, 0); width: 36px; height: 36px; border-radius: 50px;"></div>
+               </div>
+             </div>
+
+             <h6 class="mb-0 py-3 textgrayy font-style-normal f-1888">Show Budget to all members</h6>
+             <div class="modal-footer justify-content-start border-0 me-auto pt-4 px-0 pb-2">
+              <button type="button" class="btn text-white px-5 m-0 py-2 btncolcard">Save</button>
+              <button type="button" class="btn cancl ms-2 px-5 py-2" data-bs-dismiss="modal">Cancel</button>
+            </div>
+          </div>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+                    </div>
+                  </div>
+                  <!--  -->
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="bg-white row linehit24 rounded-10 px-4 py-2 mt-4">
+              <div class="minn-height-all d-flex align-items-center minn-withd-all px-0">
+                <div class="pe-3 align-items-center">
+                  <div class=""
+                    style=" border-radius: 100px; background-color: #fdecec; padding: px; width: 40px; height: 40px;">
+                    <img src="https://clubby.me/icons/Cluby-C.svg" class="backcolor" alt="" width="40" height="40">
+                  </div>
+                </div>
+
+                <div class="w-100">
+                  <div class="">
+                    <input class=" border-0 rounded-2 px-3 py-3 f-14 outli-0 w-100" type="text" placeholder="Announcement"
+                      style="background-color: #fdecec;">
+                  </div>
+                </div>
+
+                <div class="ms-2 d-none d-md-block">
+                  <button type="button" class="btn f-14 fontwwt rounded-88 bg-redd text-center text-white"
+                    style="padding: 15px 15px 12px 15px;">Publish</button>
+                </div>
+              </div>
+
+             <div class="d-none d-md-block p-0">
+              <div class="px-0 py-md-2 mx-0 d-flex">
+                <div class="font-style-normal align-items-center f-166 pe-0  mttt fclr-42" style="width: px;">
+                  <p class="d-none mb-0 d-xxl-block">Relate announcement to</p>
+                </div>
+                <div class=" px-0 ms-auto ms-lg-0 ms-xxl-auto d-none d-md-block" style="width: px;">
+                  <div class=" align-items-center d-flex flex-wrap ">
+                    <div class="">
+                      <button type="button"
+                        class="btn f-14  withd-12 me-1 btn-primary bg-white d-flex font-w-500 border-0 textgrayy align-items-center"
+                        style=" padding: 4px 16px 8px 16px;"><img src="https://clubby.me/icons/goal.svg" alt=""
+                          style="width: 24px; height: 24px;"> <span class="d-none d-lg-block ms-2">Budgel Goal</span></button>
+                    </div>
+                    <div class="">
+                      <button type="button"
+                        class="btn f-14 btn-primary withd-13 d-flex bg-white font-w-500 border-0 textgrayy align-items-center"
+                        style=" padding: 4px 16px 8px 16px;"><img src="https://clubby.me/icons/jul-17.svg" alt=""
+                          style=" width: 24px; height: 24px;"><span class="d-none d-lg-block ms-2">Upcoming Event</span></button>
+                    </div>
+                    <div class="">
+                      <button type="button"
+                        class="btn f-14 btn-primary withd-14 d-flex  font-w-500 border-0 textgrayy align-items-center"
+                        style=" background: #fafafa; padding: 4px 16px 8px 16px;"><i class="fa-solid fa-bell"
+                          style=" font-size: 20px; width: 24px; height: 24px;"></i><span class="d-none d-lg-block ms-2">No member well be notified</span></button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+             </div>
+
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="bg-white py-2 d-flex align-items-center row rounded-10 py-2 mt-4 ">
+              <div class="col-3 px-0">
+                <div class="minn-height-all-2 align-items-center">
+                  <div class="ps-lg-4 ps-3 ">
+                    <p class="mb-0 font-style-normal fs-1023 textgrayy">Announcements</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-9 px-0">
+                <div class="p-2 me-1 d-flex float-end">
+                  <div class="pe-2 pe-lg-3">
+                    <button type="button"
+                      class="btn font-style-normal withd-22 linehit24 padding-a233 fdececec border-0 text-redd f-14 py-1 px-2 px-lg-3"><img
+                        src="https://clubby.me/icons/new.svg" alt=""
+                        style="width: 24px; margin-right: 8px; height: 24px;"><span class="ps-1">New</span></button>
+                  </div>
+                  <div class="pe-lg-3">
+                    <button type="button"
+                      class="btn font-style-normal linehit24 withd-23 fdececec padding-a233 border-0 text-7575 f-14 py-1 px-2 py-1 px-lg-3 "><img
+                        src="https://clubby.me/icons/poplur.svg" alt=""
+                        style="width: 20px; margin-right: 8px; height: 14px;"><span class="">Popular</span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="row bg-white rounded-10 ps-3 pe-2 pb-2 mt-4">
+              <div class="row mt-3 p-0">
+                <div class=" col-sm-6 col-md-5 ps-3">
+                  <div class="minn-height-all-2 d-flex  align-items-center">
+                    <div class=""
+                      style=" border-radius: 100px; background-color: #fdecec; padding: px; width: 46px; height: 46px;">
+                      <img src="https://clubby.me/icons/Cluby-C.svg" class="backcolor p-2" alt="" width="46"
+                        height="46">
+                    </div>
+                    <div class="ps-3">
+                      <span class="text-redd f-16 pe-2">Jamal Shah</span>
+                      <!-- <span><i class="fa-solid fa-user"></i></span> -->
+                      <span><i class="fa-solid fa-user"  data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Admin" style="font-size: 15.435px;"></i></span>
+
+
+                      <p class="mb-0 mt-1 font-s-12 text-redd">24 hour ago</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-7 ps-4 px-0">
+                  <div class="float-end minn-height-all align-items-center py-2 ps-3 d-flex">
+                    <div class="">
+                      <button type="button" class="btn f-14 text-redd btn-light py-1 pe-2">0 likes</button>
+                    </div>
+                    <div class="">
+                      <button type="button " class="btn f-14 text-redd btn-light py-1 px-2">0 comments</button>
+                    </div>
+
+                    <button type="button" class="btn btn-primary  pt-2 me-2  border-0 sharecl" data-bs-toggle="modal"
+                      data-bs-target="#exampleModal5" style="background-color: #fdecec; border-radius: 100px;">
+                      <i class="fa-solid fa-trash" style="font-size: 20px; color: #9e9e9e;"></i>
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5"
+                      aria-hidden="true">
+                      <div class="modal-dialog   modal-dialog-centered mt-5 ">
+                        <div class="modal-content modal-dialog-centered scndmodal">
+                          <div class="modal-header p-0 border-bottom-0">
+                            <h1 class="modal-title leave color-3f354 font-style-normal" id="exampleModalLabel5">Delete
+                              Announcement</h1>
+                            <button type="button" class="" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body f-14 font-style-normal px-0 py-3 color-3f354">
+                            Are you sure you want to delete announcement?
+                          </div>
+                          <div class="modal-footer  border-top-0 pt-4 ps-0 pe-4 pb-2">
+                            <button type="button"
+                              class="btn text-white px-4 m-0 px-md-5 py-2  btncolcard">confirm</button>
+                            <button type="button" class="btn cancl px-4 px-md-5 m-0 py-2"
+                              data-bs-dismiss="modal">Cancel</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button type="button" class="btn btn-primary pt-2 px-2  border-0 sharecl"
+                      style="background-color: #fdecec; border-radius: 100px;">
+                      <i class="fa-solid fa-heart" style="font-size: 20px; color: #9e9e9e;"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="row mt-3 pe-0">
+                <p class="mb-0 ps-2 textgrey-2121 pe-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                  voluptate nesciunt atque possimus suscipit est non officia accusantium libero ullam ducimus, incidunt
+                  dolorum iste, architecto vero accusamus iure officiis Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Facilis modi hic sunt doloribus accusamus fugiat corporis aliquam iure non minima.
+                  Repellendus dignissimos saepe praesentium, placeat quibusdam accusamus eveniet.</p>
+              </div>
+              <!--  -->
+              <div class="minn-height-all d-flex align-items-center minn-withd-all px-1">
+                <div class="pe-3 align-items-center">
+                  <div class=""
+                    style=" border-radius: 100px; background-color: #fdecec; padding: px; width: 46px; height: 46px;">
+                    <img src="https://clubby.me/icons/Cluby-C.svg" class="backcolor p-2" alt="" width="46" height="46">
+                  </div>
+                </div>
+
+                <div class="w-100">
+                  <div class="">
+                    <input class=" border-0 rounded-2 px-3 outli-0 f-14 py-3 w-100" type="text" placeholder="Post a Comment"
+                      style="background-color: #fdecec;">
+                  </div>
+                </div>
+
+                <div class="ms-2 pe-2">
+                  <button type="button" class="btn f-14 fontwwt rounded-88 bg-redd text-center text-white"
+                    style="padding: 15px 15px 12px 15px;">Send</button>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <!--  -->
+          </div>
+
+          <!---------- *************  ----------->
+          <!---------- right section ------------>
+
+          <div class="col-md-3 d-none d-lg-block withd-cl-3">
+            <div class="bg-white rounded-10">
+              <div class="py-3 px-4">
+                <div class="mt-1 mb-2">
+                  <p class="fclr-42 mb-0 font-style-normal f-166">About</p>
+                </div>
+                <div class="">
+                  <p class="font-style-normal fonw-400 linehit24 f-14 mb-2 fclr-42">Sit consectetur asp</p>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="bg-white rounded-10 mt-4">
+              <div class="px-2 py-3">
+                <p class="mb-2 pt-1 linehit24 ps-3 f-166 font-style-normal fclr-42">Officers</p>
+                <!--  -->
+                <div class="minn-height-all-2 d-flex  align-items-center">
+                  <button type="button" class="btn d-flex border-0 withd-33 py-2 px-3 align-items-center" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal666">
+                    <div class="justify-content-center align-items-center"
+                      style=" border-radius: 100px; background-color: #fdecec; padding: px; width: 40px; height: 40px;">
+                      <img src="https://clubby.me/icons/Cluby-C.svg" class="backcolor p-1" alt="" width="39"
+                        height="39">
+                    </div>
+                    <div class="ps-3 align-items-end">
+                      <span class="font-style-normal f-14 colr4354 pe-1">Jamal Shah</span>
+                      <span><i class="fa-solid fa-user"  data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Admin" style="font-size: 15.435px;"></i></span>
+
+                    
+                      <p class="mb-0 mt-1 text-start text-7575 f-14">Admin</p>
+                    </div>
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade backdropmodal" id="exampleModal666" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content cardright mt-5" style="">
+                        <div class="modal-header px-3 pt-0 border-bottom">
+                          <h1 class="modal-title fs-4" id="staticBackdropLabel666">All Members</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body px-0 pb-0 pt-4 mx-3 border-bottom-0">
+                          <input type="text" placeholder="Search" class="border-0 outli-0 bg-gray-input w-100 p-3">
+                        </div>
+                        <!-- <div class="ps-1 pe-2">
+                          
+                        </div> -->
+                        <div class="">
+                          <p class="mb-0 p-3 linehit24 f-166 font-style-normal fclr-42">Officers</p>
+                        </div>
+                        <div class="modal-footer px-3 py-2 me-auto border-0">
+                          <div class="d-flex">
+                            <div class="justify-content-center p-0 align-items-center"
+                            style=" border-radius: 100px; background-color: #fdecec; padding: px; width: 40px; height: 40px;">
+                            <img src="https://clubby.me/icons/Cluby-C.svg" class="backcolor p-1" alt="" width="39"
+                              height="39">
+                          </div>
+                          <div class="ps-3 align-items-end">
+                            <span class="font-style-normal f-166 colr4354">Jamal Shah</span>
+                            <!-- <span><i class="fa-solid fa-user" style="font-size: 15.435px;"></i></span> -->
+                            <p class="mb-0 mt-1 text-start text-7575 f-14">Admin</p>
+                          </div>
+                          </div>
+                        </div>
+                        <div class="p-3">
+                          <p class="mb-0 ftext-188 colr4354">Members (0)</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ps-3 pt-3 pb-2">
+                  <p class="mb-0 colr4354">Members (0)</p>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+
+            <div class="p-2 mt-4 rounded-10 bg-white">
+              <div class="accordion" id="accordionPanelsStayOpenExample11">
+                <div class="accordion-item border-0  rounded-111">
+                  <h2 class="accordion-header bordernon">
+                    <button class="accordion-button mt-1 shadow-none align-items-center bg-white px-3 py-2 " type="button"
+                      data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne11" aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapseOne">
+                      <p class="mb-0 f-166 fclr-42  font-style-normal linehit24">Upcoming Events</p>
+                      <span class="ps-3"><i class="fa-solid fa-arrow-right" style="font-size: 16px;"></i></span>
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne11" class="accordion-collapse collapse show">
+                    <div class="accordion-body px-3 c-poinntr actiive-hoverr py-2 mt-1 link-dark align-items-center d-flex">
+                      <div class="rounded-2 justify-content-center text-center px-2"
+                        style="border: 1px solid #e94343; background: #fdecec; margin-right: px; width: 46px; height: 70px;">
+                        <p class="mb-0 mt-1 f-14 textgrayy">AUG</p>
+                        <p class="mb-0 fontsizefirst linheifgt39">27</p>
+                      </div>
+                      <!--  -->
+                      <div class="paddingg-10">
+                        <p class="mb-0 linus  fclr-42">Zeus Lopez</p>
+                        <p class="mb-0 fonw-400 ltrspace color-6161 font-s-12 mt-1">Sunt tempore et ad</p>
+                        <p class="mb-0 mt-1 text-redd font-s-12">09:08 pm - 10:08 pm</p>
+                      </div>
+                    </div>
+                    <!--  -->
+                   
+                    <div class="accordion-body px-3 c-poinntr actiive-hoverr py-2 mt-1 link-dark align-items-center d-flex">
+                      <div class="rounded-2 justify-content-center text-center px-2"
+                        style="border: 1px solid #e94343; background: #fdecec; margin-right: px; width: 46px; height: 70px;">
+                        <p class="mb-0 mt-1 f-14 textgrayy">AUG</p>
+                        <p class="mb-0 fontsizefirst linheifgt39">27</p>
+                      </div>
+                      <!--  -->
+                      <div class="paddingg-10 over-min-withd">
+                        <p class="mb-0 linus  fclr-42 overflowlorm">Meeting with client</p>
+                        <p class="mb-0 fonw-400 ltrspace color-6161 font-s-12 overflowlorm mt-1">Tell how to Boost Website trafic</p>
+                        <p class="mb-0 mt-1 text-redd font-s-12">19:08 pm - 10:08 pm</p>
+                      </div>
+                    </div>
+                    <!--  -->
+                  
+                    <div class="accordion-body px-3 c-poinntr actiive-hoverr py-2 mt-1 link-dark align-items-center d-flex">
+                      <div class="rounded-2 justify-content-center text-center px-2"
+                        style="border: 1px solid #e94343; background: #fdecec; margin-right: px; width: 46px; height: 70px;">
+                        <p class="mb-0 mt-1 f-14 textgrayy">AUG</p>
+                        <p class="mb-0 fontsizefirst linheifgt39">27</p>
+                      </div>
+                      <!--  -->
+                      <div class="paddingg-10 over-min-withd">
+                        <p class="mb-0 linus  fclr-42 overflowlorm">Meeting Brand Identity Design</p>
+                        <p class="mb-0 fonw-400 ltrspace color-6161 overflowlorm font-s-12 mt-1">Tell how to Boost Website trafic</p>
+                        <p class="mb-0 mt-1 text-redd font-s-12">19:08 pm - 10:08 pm</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="mt-4 p-4 rounded-10 bg-white">
+              <div class="f-166 font-style-normal d-flex flex-wrap fclr-42">
+                <span class="">Budget Goals</span>
+                <span class="ms-xxl-auto ms-lg-5">Show Public</span>
+                
+              </div>
+              <div class="accordion-body border-bottom pt-1 pb-2 align-items-center d-flex">
+                <div class="rounded-5 "
+                  style="border: 1px solid blueviolet; background: #b7d6e9; padding: 6px; margin-right: px; width: 40px; height: 40px;">
+                  <img src="https://clubby.me/icons/Cluby-C.svg" class="backcolor" alt="" width="25" height="26">
+                </div>
+                <div class="paddding-3">
+                  <p class="mb-0 fss-16 overfloo textgrayy">Non eum iste eius ap</p>
+                  <p class="mb-0 fontsss-13 lorems fonw-400 mt-1">2024-08-28</p>
+                </div>
+                <div class="ms-auto">
+                  <span class="py-3 fsss-20 textcolor">$0</span>
+                  <span class="py-3 fsss-20 textclor7575">/$959</span>
+                </div>
+              </div>
+            </div>
+            <!--       -->
+            <!-- ***** -->
+          </div>
+    </main>
+  </div>
+
+  <!-- bootstrap link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <script>const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))</script>
+  <!--  -->
+</body>
+
+</html>
